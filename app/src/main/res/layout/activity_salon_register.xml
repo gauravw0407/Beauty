@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_salon_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gr.beauty.View.SalonRegister"
+    android:background="#FF69B4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:gravity="center"
+            android:padding="12dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:background="#EEEEEE">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SALON"
+                    android:textColor="#444444"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="2dp"
+                    style="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444444"/>
+
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Shop Name"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:gravity="bottom"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#666666"
+                android:textColorHighlight="#FF69B4"
+                android:id="@+id/salonShopname"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Mobile No."
+                android:inputType="number"
+                android:singleLine="true"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:gravity="bottom"
+                android:textColor="#000000"
+                android:textColorHint="#666666"
+                android:textColorHighlight="#FF69B4"
+                android:id="@+id/salonMobileNo"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Locality"
+                android:singleLine="true"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:gravity="bottom"
+                android:textColor="#000000"
+                android:textColorHint="#666666"
+                android:textColorHighlight="#FF69B4"
+                android:id="@+id/salonLocality"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Area"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:gravity="bottom"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#666666"
+                android:textColorHighlight="#FF69B4"
+                android:id="@+id/salonArea"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="City"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:gravity="bottom"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#666666"
+                android:textColorHighlight="#FF69B4"
+                android:id="@+id/salonCity"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="State"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:gravity="bottom"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#666666"
+                android:textColorHighlight="#FF69B4"
+                android:id="@+id/salonState"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Password"
+                android:inputType="textPassword"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:gravity="bottom"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#666666"
+                android:textColorHighlight="#FF69B4"
+                android:id="@+id/salonPassword"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:gravity="bottom"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textColorHint="#666666"
+                android:textColorHighlight="#FF69B4"
+                android:id="@+id/salonConfirmPassword"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:text="REGISTER"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"
+                android:onClick="onSalonRegisterBtnClick"
+                android:id="@+id/salonRegisterBtn"/>
+
+        </LinearLayout>
+
+</LinearLayout>

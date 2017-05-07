@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/customer_view_layout_border"
+    android:id="@+id/customer_view_recyclerview_item">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="JAVED HABIB"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:singleLine="true"
+        android:id="@+id/shopName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Shankar Nagar"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:textColor="#222222"
+            android:singleLine="true"
+            android:id="@+id/areaName"
+            style="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Raipur"
+            android:singleLine="true"
+            android:gravity="right"
+            android:textColor="#333333"
+            android:id="@+id/cityName"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_marginRight="2dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

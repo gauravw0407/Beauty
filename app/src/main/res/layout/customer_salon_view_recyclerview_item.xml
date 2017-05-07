@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_marginBottom="2dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7.5"
+        android:background="@drawable/layout_border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service name"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:textAlignment="center"
+            android:padding="2dp"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:id="@+id/displayServiceName"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Price: "
+                android:padding="2dp"
+                android:textColor="#333333"
+                android:textStyle="italic"
+                android:textAlignment="textEnd"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:text="Rs. "
+                android:padding="2dp"
+                android:textAlignment="textEnd"
+                android:textColor="#222222"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="500"
+                android:padding="2dp"
+                android:textColor="#222222"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:id="@+id/displayServicePrice"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:src="@drawable/plusfloating"
+        android:background="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/customerBookingBtn"/>
+
+</LinearLayout>

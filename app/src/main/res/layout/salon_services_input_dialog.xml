@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Service"
+            android:textColorHint="#666666"
+            android:textColor="#000000"
+            android:background="@drawable/dialog_box_border"
+            android:padding="10dp"
+            android:singleLine="true"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/inputServiceName"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Price"
+            android:textColorHint="#666666"
+            android:textColor="#000000"
+            android:background="@drawable/dialog_box_border"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:inputType="numberDecimal"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/inputServicePrice"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter No. of Seats Available"
+            android:textColorHint="#666666"
+            android:textColor="#000000"
+            android:background="@drawable/dialog_box_border"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:inputType="number"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/inputServiceSeats"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#DDDDDD">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Ok"
+            android:textColor="#000000"
+            android:inputType="textNoSuggestions"
+            android:background="@android:color/transparent"
+            android:id="@+id/inputServiceOkBtn"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#555555"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:inputType="textNoSuggestions"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#000000"
+            android:background="@android:color/transparent"
+            android:id="@+id/inputServiceCancelBtn"/>
+
+    </LinearLayout>
+
+</LinearLayout>

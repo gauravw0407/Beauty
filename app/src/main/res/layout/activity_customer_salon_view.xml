@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_customer_salon_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gr.beauty.View.CustomerSalonView"
+    android:orientation="vertical"
+    android:background="#FF69B4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:gravity="center"
+            android:padding="12dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textStyle="bold"
+        android:text="Customer Name"
+        android:padding="7dp"
+        android:singleLine="true"
+        android:paddingStart="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_vertical"
+        android:id="@+id/customerSalonViewCustomerName"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="#EEEEEE">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="#000000"
+            android:text="Shop Name"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/displayShopname"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:textColor="#000000"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:text="Address: "
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7.5"
+                android:textColor="#000000"
+                android:text="locality"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:id="@+id/displayLocality"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                style="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7.5"
+                android:textColor="#000000"
+                android:text="area"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:id="@+id/displayArea"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                style="@style/TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:text="city"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:id="@+id/displayCity"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:textColor="#000000"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:text="state"
+                android:id="@+id/displayState"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="Contact: "
+                android:textColor="#000000"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7.5"
+                android:text="9988776655"
+                android:textColor="#000000"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:id="@+id/displayMobileNo"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text="SERVICES"
+            android:padding="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginBottom="8dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/displayServicesRecyclerView"
+            android:scrollbars="vertical"/>
+
+    </LinearLayout>
+
+</LinearLayout>

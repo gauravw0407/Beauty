@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_375e6fa20902ab6690d11ed1de2b398064f05170.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_5c8411e81c859fcd8f81b472e8e112d269822bd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_0f6fcc203459f1c42bced12bb2ad253c3bb0f722.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_95719a8cd603e9dc0990d14456d3a15d00544aa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_20b3ae9a929b87fc20e56cb45b7e36b08c12cf34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_f26055291299b8e5979f5516ad80992cdc0c3cb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_061f3574afc22d831d7959de10c1c3d3cebc0d60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_329280a59d67bd8bbf596166a291cc695839cb0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_92973270a32986986ebe215cbc2bf27a44fe6281.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2c5b84a0d327c0a216db320b8a1013123ad2f3cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_f5acdfb2185f7243fed4b999b4352efc7a968f39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_9b3f7bf4a0f7d6c490b26f6b24d26a7641dc4f3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_c2315a081f0641dd4d248025687dfda206073f96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_9f6c23d8bf3ff7b672a7a770ad9d47c22f83a0ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_33e3a162ebd1470ab03ac51b164b28aecd41425c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_5e72d709a35c3ef2aa0ac41b9fcef2494f467e38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/gaurav/AndroidStudioProjects/Beauty/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_c3bc93045e7d2b4c18cc31ecc69ffc4b601d2f85.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gr.beauty.View.CustomerLogin"
+    android:background="#FF69B4"
+    android:id="@+id/activity_customer_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:gravity="center"
+            android:padding="12dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:background="#EEEEEE">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CUSTOMER"
+                android:gravity="center"
+                android:textColor="#444444"
+                android:textStyle="bold"
+                android:padding="8dp"
+                style="@style/Base.TextAppearance.AppCompat.Display1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#444444"/>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:hint="Mobile No."
+            android:textColor="#000000"
+            android:textColorHint="#666666"
+            android:singleLine="true"
+            android:textColorHighlight="#FF69B4"
+            android:inputType="number"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:gravity="bottom"
+            android:id="@+id/customerLoginMobileNo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:hint="Password"
+            android:textColor="#000000"
+            android:textColorHint="#666666"
+            android:singleLine="true"
+            android:textColorHighlight="#FF69B4"
+            android:inputType="textPassword"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:gravity="bottom"
+            android:id="@+id/customerLoginPassword" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Login"
+            android:onClick="onCustomerLoginBtnClick"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_border"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"
+            android:id="@+id/customerLoginBtn" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Not Registered Yet?"
+            android:textAlignment="center"
+            android:gravity="bottom"
+            android:textColor="#222222"
+            style="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:text="Register Here!"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:onClick="onCustomerRegisterHereClick"
+            android:id="@+id/customerRegisterHere"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_layout_border"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:onClick="onSearchClick"
+        android:textColor="#000000"
+        android:id="@+id/search"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Bookings"
+        android:textColor="#000000"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="25dp"
+        android:onClick="onMyBookingsClick"
+        android:id="@+id/myBookings"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textColor="#000000"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:onClick="onCustomerLogOutClick"
+        android:id="@+id/customerLogOut"/>
+
+</LinearLayout>

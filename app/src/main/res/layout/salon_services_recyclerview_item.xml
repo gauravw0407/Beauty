@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/layout_border">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service name"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        android:padding="2dp"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/serviceName"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:text="Price: "
+            android:padding="2dp"
+            android:textColor="#222222"
+            android:textStyle="italic"
+            android:textAlignment="textEnd"
+            style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="Rs. "
+            android:textColor="#222222"
+            android:padding="2dp"
+            android:textAlignment="textEnd"
+            style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="500"
+            android:padding="2dp"
+            android:textColor="#222222"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/servicePrice"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:text="Seats: "
+            android:textAlignment="textEnd"
+            android:padding="2dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#222222"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="5"
+            android:padding="2dp"
+            android:textColor="#222222"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/serviceSeats"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

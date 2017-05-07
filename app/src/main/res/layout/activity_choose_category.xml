@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_choose_category"
+    android:background="#FF69B4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:gravity="center"
+            android:padding="12dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+
+        <com.gr.beauty.View.TypeWriter
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/typeWriter"
+            android:textAlignment="center"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:gravity="center"
+            android:textColor="#444444"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.8"
+                android:id="@+id/salonCategory"
+                android:foreground="@drawable/category_layout"
+                android:background="@drawable/salon"
+                android:text="Salon"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:textColor="#FF0093"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:onClick="onSalonCategoryClick"
+                style="@style/Base.TextAppearance.AppCompat.Display2" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.8"
+                android:id="@+id/customerCategory"
+                android:foreground="@drawable/category_layout"
+                android:background="@drawable/customer"
+                android:text="Customer"
+                android:textColor="#FF0093"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:onClick="onCustomerCategoryClick"
+                style="@style/Base.TextAppearance.AppCompat.Display2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

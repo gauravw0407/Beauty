@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF69B4"
+    android:id="@+id/activity_customer_register"
+    tools:context="com.gr.beauty.View.CustomerRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:gravity="center"
+            android:padding="12dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="#EEEEEE">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CUSTOMER"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#444444"
+                style="@style/Base.TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#444444"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="2dp"
+            android:hint="Name"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#666666"
+            android:singleLine="true"
+            android:textColorHighlight="#FF69B4"
+            android:gravity="bottom"
+            android:id="@+id/customerName"
+            style="@style/Base.TextAppearance.AppCompat.Title" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="2dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#666666"
+            android:textColorHighlight="#FF69B4"
+            android:layout_weight="2"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:hint="Mobile No."
+            android:gravity="bottom"
+            android:id="@+id/customerMobileNo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="2dp"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:textColorHint="#666666"
+            android:textColorHighlight="#FF69B4"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="bottom"
+            android:hint="Password"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:id="@+id/customerPassword"/>
+
+        <EditText
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:textColorHint="#666666"
+            android:textColorHighlight="#FF69B4"
+            android:gravity="bottom"
+            android:hint="Connfirm Password"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:id="@+id/customerConfirmPassword"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/button_border"
+            android:text="REGISTER"
+            android:textColor="#FFFFFF"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"
+            android:onClick="onCustomerRegisterBtnClick"
+            android:id="@+id/customerRegisterBtn" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

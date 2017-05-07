@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_marginBottom="4dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:background="@drawable/layout_border"
+        android:orientation="vertical"
+        android:layout_marginStart="7dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service name"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="2dp"
+            android:textColor="#111111"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:id="@+id/editServiceName"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:text="Price: "
+                android:padding="2dp"
+                android:textColor="#222222"
+                android:textStyle="italic"
+                android:textAlignment="textEnd"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:text="Rs. "
+                android:padding="2dp"
+                android:textAlignment="textEnd"
+                android:textColor="#222222"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="500"
+                        android:padding="2dp"
+                        android:textColor="#222222"
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:id="@+id/editServicePrice"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:text="Seats: "
+                        android:textAlignment="textEnd"
+                        android:padding="2dp"
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="#222222"
+                        android:textStyle="italic"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:text="5"
+                        android:textColor="#222222"
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:id="@+id/editServiceSeats"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="3dp"
+        android:src="@drawable/deletelogo"
+        android:layout_marginEnd="7dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:id="@+id/deleteServiceBtn"/>
+
+</LinearLayout>
